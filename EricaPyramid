@@ -9,15 +9,28 @@ import acm.program.*;
 import acm.graphics.*;
 
 public class Pyramid extends GraphicsProgram {
+	
+	private static final double width = 30;
+	private static final double height = 12; 
+	private static int numB = 0;
+	private static int numL = 0;
+	private static int bricksInBase = 14;
 
 	public void run() {
-		double width = getWidth();
-		double height = getHeight(); 
-		int numB = 0;
-		int numL = 0;
 		GRect brick = new GRect(30, 12); 
-		add(brick);
-		brick.setLocation(100,height-12); 
+		while (bricksInBase > 0){
+			 
+			
+		}
+	}
+	private void buildBase(){
+		while (bricksInBase > numB){
+			
+		}
+		
+				
 	}
 
+
 }
+
